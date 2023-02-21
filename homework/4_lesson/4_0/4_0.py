@@ -14,4 +14,4 @@ m = int(input("Size of the second set: "))
 set_1 = [int(input("Enter number for set_1: ")) for i in range(n)]
 set_2 = [int(input("Enter number for set_2: ")) for i in range(m)]
 
-print(sorted(set(set_1) | set(set_2)))
+print(sorted(set(set_1).intersection(set_2)))
